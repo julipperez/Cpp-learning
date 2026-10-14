@@ -6,7 +6,7 @@ int divisionEntera(int , int , int ); //la función recibe directamente la varia
 int main(int argc, char *argv[]) {
 	
 		int valor1;
-		int valor2;
+		int valor2; 
 	
 		cout<<"ingrese el valor 1: ";
 		cin>>valor1;
