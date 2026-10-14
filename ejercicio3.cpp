@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int divisionEntera(int &a, int &b, int &res); //la funciÛn recibe directamente la variable original, no una copia
+int divisionEntera(int , int , int ); //la funci√≥n recibe directamente la variable original, no una copia
 
 int main(int argc, char *argv[]) {
 	
@@ -16,7 +16,7 @@ int main(int argc, char *argv[]) {
 		
 		int resultado;
 		
-		resultado= divisionEntera(valor1,valor2,resultado); //no pas·s direcciones de memoria, sino las variables mismas
+		resultado= divisionEntera(valor1,valor2,resultado); //no pas√°s direcciones de memoria, sino las variables mismas
 		
 		cout<<""<<resultado;
 		
